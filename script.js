@@ -5,7 +5,7 @@
 
 // إعدادات خدمة الإرسال
 const CONFIG = {
-  // مفتاح Web3Forms الخاص ببريد: rswkhalmranyt@gmail.com
+  // مفتاح Web3Forms الخاص ببريد: sltanbnnasr346@gmail.com
   web3formsKey: '274c7999-8af6-4943-acd9-3c5cdfedac60',
   
   // اسم الشركة الافتراضي
