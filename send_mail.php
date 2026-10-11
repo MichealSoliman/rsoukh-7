@@ -26,9 +26,9 @@ $config = file_exists($configFile) ? require $configFile : [];
 $recipientEmail = !empty($config['recipient_email']) ? trim($config['recipient_email']) : '';
 $fromName = !empty($config['from_name']) ? trim($config['from_name']) : 'رسوخ العمرانية - دروازة';
 $timezone = !empty($config['timezone']) ? $config['timezone'] : 'Asia/Riyadh';
-$projectTitle = !empty($config['project_title']) ? $config['project_title'] : 'بيانات العميل دروازه';
-$projectLoc = !empty($config['project_loc']) ? $config['project_loc'] : 'مستشفي الثغر حي الامير فواز';
-$subjectText = !empty($config['email_subject']) ? $config['email_subject'] : 'بيانات العميل دروازه - مستشفي الثغر حي الامير فواز';
+$projectTitle = !empty($config['project_title']) ? $config['project_title'] : 'بيانات العميل دروازة';
+$projectLoc = !empty($config['project_loc']) ? $config['project_loc'] : 'مستشفي العيون حي الصفا';
+$subjectText = !empty($config['email_subject']) ? $config['email_subject'] : 'بيانات العميل دروازة - مستشفي العيون حي الصفا';
 $mailerType = !empty($config['mailer_type']) ? strtolower(trim($config['mailer_type'])) : 'mail';
 
 // ضبط المنطقة الزمنية
