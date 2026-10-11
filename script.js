@@ -276,21 +276,21 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const payload = {
           access_key: CONFIG.web3formsKey,
-          subject: 'بيانات العميل دروازة - مستشفي العيون حي الصفا - ' + fullName,
-          from_name: 'رسوخ العمرانية - دروازة',
-          'المشروع': 'بيانات العميل دروازة - مستشفي العيون حي الصفا',
+          subject: 'بيانات العميل عمارة وروف مشرفه - مستشفي العزيزية حي العزيزية - ' + fullName,
+          from_name: 'رسوخ العمرانية - عمارة وروف مشرفه',
+          'المشروع': 'بيانات العميل عمارة وروف مشرفه - مستشفي العزيزية حي العزيزية',
           message: [
-            'بيانات العميل دروازة',
-            'مستشفي العيون حي الصفا',
+            'بيانات العميل عمارة وروف مشرفه',
+            'مستشفي العزيزية حي العزيزية',
             '━━━━━━━━━━━━━━━━━━━━━━━━━━━━',
             '• اسم العميل: ' + fullName,
             '• رقم الجوال السعودي: ' + saudiPhoneInternational,
             '• المدينة: ' + cityName,
             '• طريقة الدفع: ' + paymentMethod,
-            '• الموقع / المشروع: مستشفي العيون حي الصفا',
+            '• الموقع / المشروع: مستشفي العزيزية حي العزيزية',
             '• اسم الشركة: ' + CONFIG.companyName,
             '• تاريخ ووقت الطلب: ' + formattedDate,
-            '• نوع الطلب: تسجيل اهتمام (دروازة)',
+            '• نوع الطلب: تسجيل اهتمام (عمارة وروف مشرفه)',
             '━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
           ].join('\n')
         };
@@ -321,8 +321,8 @@ document.addEventListener('DOMContentLoaded', () => {
           phone_number: saudiPhoneInternational,
           city: cityName,
           payment_method: paymentMethod,
-          project_source: 'بيانات العميل دروازة - مستشفي العيون حي الصفا',
-          request_type: 'تسجيل اهتمام (دروازة)',
+          project_source: 'بيانات العميل عمارة وروف مشرفه - مستشفي العزيزية حي العزيزية',
+          request_type: 'تسجيل اهتمام (عمارة وروف مشرفه)',
           website_url_check: honeypotInput ? honeypotInput.value : ''
         };
 
